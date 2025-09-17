@@ -1,7 +1,7 @@
 
 import React from 'react';
-import type { Tool } from '../types';
-import { ToolId } from '../types';
+import type { Tool } from '../types.ts';
+import { ToolId } from '../types.ts';
 
 interface SidebarProps {
   tools: Tool[];

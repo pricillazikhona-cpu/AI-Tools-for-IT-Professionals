@@ -1,9 +1,9 @@
 
 import React, { useState, useMemo } from 'react';
-import Sidebar from './components/Sidebar';
-import { TOOLS } from './constants';
-import { ToolId } from './types';
-import CodingBackground from './components/common/CodingBackground';
+import Sidebar from './components/Sidebar.tsx';
+import { TOOLS } from './constants.tsx';
+import { ToolId } from './types.ts';
+import CodingBackground from './components/common/CodingBackground.tsx';
 
 const App: React.FC = () => {
   const [selectedToolId, setSelectedToolId] = useState<ToolId>(TOOLS[0].id);

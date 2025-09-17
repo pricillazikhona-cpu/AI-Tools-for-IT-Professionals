@@ -1,11 +1,11 @@
 
 import React from 'react';
-import type { Tool } from './types';
-import { ToolId } from './types';
-import CommitMessageGenerator from './components/tools/CommitMessageGenerator';
-import RegexGenerator from './components/tools/RegexGenerator';
-import ShellCommandGenerator from './components/tools/ShellCommandGenerator';
-import CodeExplainer from './components/tools/CodeExplainer';
+import type { Tool } from './types.ts';
+import { ToolId } from './types.ts';
+import CommitMessageGenerator from './components/tools/CommitMessageGenerator.tsx';
+import RegexGenerator from './components/tools/RegexGenerator.tsx';
+import ShellCommandGenerator from './components/tools/ShellCommandGenerator.tsx';
+import CodeExplainer from './components/tools/CodeExplainer.tsx';
 
 const CommitIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}><path d="M15 10.5A3.5 3.5 0 0 1 18.5 14H19a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2h.5A3.5 3.5 0 0 1 9 10.5V8a1 1 0 0 0-1-1H3"/><path d="m12 14-3-3 3-3"/><path d="M9 11h9"/></svg>

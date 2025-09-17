@@ -1,8 +1,8 @@
 
 import React, { useState, useCallback } from 'react';
-import { generateContent } from '../../services/geminiService';
-import LoadingSpinner from '../common/LoadingSpinner';
-import CodeBlock from '../common/CodeBlock';
+import { generateContent } from '../../services/geminiService.ts';
+import LoadingSpinner from '../common/LoadingSpinner.tsx';
+import CodeBlock from '../common/CodeBlock.tsx';
 
 // Icons for feedback
 const ThumbsUpIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (

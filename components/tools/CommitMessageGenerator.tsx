@@ -1,6 +1,6 @@
 
 import React from 'react';
-import ToolInterface from './ToolInterface';
+import ToolInterface from './ToolInterface.tsx';
 
 const CommitMessageGenerator: React.FC = () => {
   return (

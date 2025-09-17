@@ -1,6 +1,6 @@
 
 import React from 'react';
-import CopyButton from './CopyButton';
+import CopyButton from './CopyButton.tsx';
 
 interface CodeBlockProps {
   content: string;
