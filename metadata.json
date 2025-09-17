@@ -1,0 +1,5 @@
+{
+  "name": "AI Tools for IT Professionals",
+  "description": "A collection of AI-powered tools designed to assist IT professionals and developers with common tasks like generating commit messages, regular expressions, shell commands, and explaining code snippets.",
+  "requestFramePermissions": []
+}
